@@ -1,14 +1,13 @@
-package com.example.gatewayservice;
+package com.example.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-
-public class GatewayServiceApplication {
+public class ClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GatewayServiceApplication.class, args);
+        SpringApplication.run(ClientApplication.class, args);
     }
 
 }
